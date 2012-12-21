@@ -1,0 +1,25 @@
+{
+  "name": "localrc",
+  "version": "0.1.0",
+  "description": "A project-local version of rc, chainable with the original.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Schoonology/localrc.git"
+  },
+  "keywords": [
+    "config",
+    "rc",
+    "localrc",
+    "unix",
+    "defaults"
+  ],
+  "author": "Michael Schoonmaker <michael.r.schoonmaker@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "config-chain": "~1.1.3"
+  }
+}
