@@ -22,8 +22,8 @@ function localrc(name, defaults) {
         path.join(dir, os.hostname()),
         path.join(dir, process.env.USER + '.json'),
         path.join(dir, process.env.USER),
-        path.join(dir, process.env[name.toUpperCase() + '_ENV'] + '.json'),
-        path.join(dir, process.env[name.toUpperCase() + '_ENV']),
+        path.join(dir, process.env[name.toUpperCase() + '_ENV'] || 'dev' + '.json'),
+        path.join(dir, process.env[name.toUpperCase() + '_ENV'] || 'dev'),
         path.join(dir, 'defaults.json'),
         path.join(dir, 'defaults'),
         path.join(dir, '..', 'config.json')
